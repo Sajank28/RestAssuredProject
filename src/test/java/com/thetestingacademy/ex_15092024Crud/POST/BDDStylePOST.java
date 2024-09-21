@@ -2,9 +2,12 @@ package com.thetestingacademy.ex_15092024Crud.POST;
 
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
+import org.testng.annotations.Test;
 
 public class BDDStylePOST {
-    public static void main(String[] args) {
+
+    @Test
+    public void postBDDStyle(){
 
         String payload = "{ \n " +
                "\"username\" : \"admin\",\n" +

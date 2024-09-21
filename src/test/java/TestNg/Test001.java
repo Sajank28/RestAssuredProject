@@ -15,5 +15,8 @@ public class Test001 {
                 .get()
                 .then().log().all()
                 .statusCode(200);
+
+        // To Create testng_xml file
+        //right click and create testng_postbdd.xml -> reload from disk -> click on testng_postbdd.xml -> reformat code
     }
 }
